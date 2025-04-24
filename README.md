@@ -61,4 +61,5 @@ flask-student-app
 
 ## Licence
 
+
 Ce projet est sous licence MIT.
