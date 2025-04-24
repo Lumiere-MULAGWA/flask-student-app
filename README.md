@@ -34,9 +34,9 @@ flask-student-app
    python -m venv venv
    source venv/bin/activate  # Sur Windows utilisez `venv\Scripts\activate`
    ```
-   Ensuite, installez Flask :
+   Ensuite, installez toutes les dependances :
    ```
-   pip install Flask
+   pip install -r requirements.txt
    ```
 
 3. **Initialiser la base de données :**
