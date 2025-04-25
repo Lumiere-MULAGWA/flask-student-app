@@ -1,1 +1,0 @@
-The file /flask-student-app/flask-student-app/database/students.db is an SQLite database file and is not meant to contain any code or text. It will be created and managed by the SQLite library when the application runs and initializes the database. Therefore, this file is intentionally left blank.
