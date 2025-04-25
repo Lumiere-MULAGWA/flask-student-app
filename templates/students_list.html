@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Students List</title>
+    <title>Liste des Étudiants</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Registered Students</h1>
+        <h1>Étudiants Inscrits</h1>
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Name</th>
+                    <th>Nom</th>
                     <th>Email</th>
-                    <th>Faculty</th>
+                    <th>Faculté</th>
                 </tr>
             </thead>
             <tbody id="students-table-body">
@@ -29,7 +29,7 @@
                 {% endfor %}
             </tbody>
         </table>
-        <a href="{{ url_for('add_student') }}">Add New Student</a>
+        <a href="{{ url_for('add_student') }}">Ajouter un Nouvel Étudiant</a>
     </div>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
