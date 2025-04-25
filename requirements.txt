@@ -11,3 +11,4 @@ flask_jwt_extended
 flask_socketio
 flask_admin
 SQLite3-0611==0.0.1
+gunicorn
